@@ -1,0 +1,139 @@
+$color-b:  rgb(25, 31, 34);
+
+
+@font-face {
+  font-family: 'Bita';
+  src: url('../fonts/ka1.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bitsa';
+  src: url('../fonts/visitor1.ttf') format('truetype');
+}
+footer{
+  border-top:1px solid $color-b;
+}
+#screenshoots{
+  div{
+img{
+  margin:10px;
+  //background-color: $color-b;
+  border: 3px solid #576979;
+  border-radius: 5px;
+}
+}
+#act{
+background-color: rgb(122, 168, 190);
+}
+
+#share-buttons
+{
+background-color: white;
+img {
+width: 100px;
+padding: 5px;
+box-shadow: 0;
+display: inline;
+border: 0px;
+
+}
+}
+
+}
+#menu{
+
+background-image: url('../images/bg_sky_1.png');
+background-size:  1900px 100%;
+padding-bottom: 200px;
+padding-top: 200px;
+min-width: 800px;
+right:50px;
+text-align: right;
+}
+#list{
+  text-align: left;
+  li{
+font-family: Bits;
+font-size: 30px;
+padding: 5px;
+margin:20px;
+  }
+}
+p{
+font-family: Bits;
+font-size: 20px;
+}
+#content{
+
+
+text-align: center;
+
+padding: 10px;
+min-width: 320px;
+}
+img{
+  margin:0px;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+iframe{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+div{
+color: rgb(31, 33, 33);
+}
+
+.row{
+margin:10px;
+}
+#logo{
+  position: absolute;
+margin:80px;
+margin-bottom: 0px;
+width:150px;
+left:5%;
+border:3px solid $color-b;
+border-radius: 5px;
+}
+#myCarousel{
+  min-height: 150px;
+  height:30%;
+
+}
+h3{
+margin:10px;
+font-size: 40px;
+padding-bottom: 10px;
+font-family: Bit;
+}
+button{
+  margin:70px;
+width:150px;
+border:1px solid rgb(25, 31, 34) ;
+height: 60px;
+background-color: rgb(191, 217, 232);
+border-radius: 5px;
+
+h1{
+  font-size: 40px;
+  font-family: Bit;
+  color:rgb(25, 31, 34);
+  float: right;
+  margin: 5px;
+}
+img{
+  width: 40px;
+  float: left;
+  margin: 5px;
+}
+}
+h1{
+  font-family: Bit;
+}
+@media only screen and (max-width : 540px) {
+  #menu{
+  background-size:1200px 100%;
+}
+}
